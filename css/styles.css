@@ -3,7 +3,7 @@ body{
   justify-content: center;
   position: relative;
 }
-#header, #banner, #testimonal, #features,.signup, .dropdown-menu.show ,#loginform ,.footer-section{
+#header, #banner, #testimonal, #features,.signup, #offers, .dropdown-menu.show ,#loginform ,.footer-section{
   max-width: 1200px;
 }
 a{
@@ -91,14 +91,14 @@ color: black;
 .terms{
   width: 100%;
   display: flex;
-  padding-top: 32px;
-  padding-bottom: 8px;
+  padding-top: 15px;
+  padding-bottom: 35px;
   column-gap: 10px;
   justify-content: center;
 }
 
 @media screen and (min-width: 1200px) {
-  body,#header ,#banner ,#testimonal,.signup,#features, #loginform,.footer-section{
+  body,#header ,#banner ,#testimonal,.signup,#features, #offers, #loginform,.footer-section{
       text-align: center;
       margin-left: auto;
       margin-right: auto;
@@ -126,3 +126,15 @@ color: black;
   margin-top: -19px;
   min-width: 50%;
 }
+.box2{
+  background-color: #2e395e;;
+}
+.divider:after, .divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+  }
+  .colors:hover{
+      background-color: white;
+  }
