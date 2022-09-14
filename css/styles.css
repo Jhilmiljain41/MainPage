@@ -1,0 +1,128 @@
+
+body{
+  justify-content: center;
+  position: relative;
+}
+#header, #banner, #testimonal, #features,.signup, .dropdown-menu.show ,#loginform ,.footer-section{
+  max-width: 1200px;
+}
+a{
+text-decoration: none;
+color: black;
+}
+.navbar-nav .nav-item{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: large;
+}
+.navbar-nav .nav-item:hover{
+  border-radius: 8%;
+  background-color: rgb(243, 243, 243);
+}
+.navbar-nav .dropdown{
+  position: static;
+}
+.navbar-nav .dropdown-menu.show {
+  right: 0;
+  display: block;
+  border-top: 0px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-color: white;
+  width: 100%;
+  background-size: 30% 60%;
+  background-image: url(../images/global-navigation.svg);
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: bottom;
+}
+@media screen and (min-width: 768px){
+.media {
+    flex-shrink: 0;
+    margin-left: 2rem;
+    width: 45%;
+    margin-left: 5rem;
+    }
+}
+.media {
+    position: relative;
+}
+@media screen and (min-width: 1200px){
+.videoWrapper {
+    width: calc(50vw - 49.95px);
+    }
+}
+@media screen and (min-width: 768px){
+.videoWrapper {
+    clip-path: polygon(6% 0,100% 0,100% 100%,0 100%);
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 768px){
+  .videoWrapper{
+    display: none;
+  }
+}
+.video {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+  z-index: 1}
+.box{
+  font-weight: 500;
+}
+.box:hover{
+  background-color: #0d6efd;
+  color: white;
+}
+.data{
+  padding-right: 32px;
+}
+.data:hover{
+  padding-right: 48px;
+}
+#banner-section{
+  position: relative;
+}
+.terms{
+  width: 100%;
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 8px;
+  column-gap: 10px;
+  justify-content: center;
+}
+
+@media screen and (min-width: 1200px) {
+  body,#header ,#banner ,#testimonal,.signup,#features, #loginform,.footer-section{
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: center;
+  }
+}
+.card{
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 40px rgba(51, 51, 51, .1)
+}
+.card:hover{
+  background-color: #eee;
+}
+.ratings i{
+  color: orange;
+}
+.testimonial-list{
+  list-style: none;
+}
+.testimonial-list li{
+  margin-bottom: 20px;
+}
+.testimonials-margin{
+  margin-top: -19px;
+  min-width: 50%;
+}
