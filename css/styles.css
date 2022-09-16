@@ -102,9 +102,50 @@ color: black;
     top: -80px;
   }
 }
+.nav {
+  font-size: large;
+  padding-bottom: 10px;
+}
+.nav li {
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+}
+.active-nav .nav-link{
+  color: #505e8b;
+}
+.nav li .nav-link:hover{
+  color: #141c36;
+}
+.nav li.active .nav-link{
+  color: #141c36;
+}
+.nav li.active::after {
+  position: absolute;
+  content: "";
+  height: 4px;
+  width: 100%;
+  background-color: #141c36;
+  left: 0;
+  bottom: -7px;
+  border-radius: 20px;
+  animation: appear 0.2s linear;
+}
+@keyframes appear {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 580px){
   .videoWrapper{
     display: none;
+  }
+  .nav{
+    font-size: small;
   }
 }
 .video {
@@ -213,9 +254,9 @@ color: black;
     font-size: smaller;
   }
 }
-@media screen and (max-width:771px){
-  .video{
-    width: 103.5%;
+@media screen and (max-width:832px) and (min-width:450px){
+  .img1{
+    height: 20% !important;
   }
 }
 .card{
@@ -255,44 +296,6 @@ color: black;
       min-width: auto;
     }
   }
-  .nav {
-    font-size: small;
-    padding-bottom: 10px;
-  }
-  .nav li {
-    cursor: pointer;
-    position: relative;
-    text-align: center;
-  }
-  .active-nav .nav-link{
-    color: #505e8b;
-  }
-  .nav li .nav-link:hover{
-    color: #141c36;
-  }
-  .nav li.active .nav-link{
-    color: #141c36;
-  }
-  .nav li.active::after {
-    position: absolute;
-    content: "";
-    height: 4px;
-    width: 100%;
-    background-color: #141c36;
-    left: 0;
-    bottom: -7px;
-    border-radius: 20px;
-    animation: appear 0.2s linear;
-  }
-  @keyframes appear {
-    from {
-      width: 0;
-    }
-    to {
-      width: 100%;
-    }
-  }
-
   .slider {
     margin-bottom: 30px;
     position: relative;
@@ -326,8 +329,23 @@ color: black;
     font-size: 30px !important;
     z-index: 1;
   }
-  .owl-dots {
+  #newsfeed .owl-dots {
     display: none;
+  }
+  .owl-dots {
+    text-align: center;
+  }
+  .owl-dots .owl-dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    background: #ccc !important;
+    margin-left: 3px;
+    margin-right: 3px;
+    outline: none;
+  }
+  .owl-dots .owl-dot.active {
+    background: #141c36 !important;
   }
   .hide{
     display: none;
