@@ -3,7 +3,7 @@ body{
   justify-content: center;
   position: relative;
 }
-#header, #banner, #testimonal, #courses,#features,.signup, #offers, #newsfeed .dropdown-menu.show ,#loginform ,#signup,.footer-section{
+#header, #banner, #tweets,#testimonal,#section1, .courses,#features,.signup, #offers, #newsfeed ,.dropdown-menu.show ,#loginform ,#signup,.footer-section{
   max-width: 1200px;
 }
 a{
@@ -184,52 +184,13 @@ color: black;
   padding-bottom:48px;
 }
 @media screen and (max-width:990px){
-  .navbar-nav .dropdown-toggle,.navbar-nav .nav-link{
-    padding-left: 8px;
-  }
   .navbar-nav .nav-item:hover{
     border-radius: 1%;
     background-color: rgb(243, 243, 243);
   }
-  .arrow{
-    display: none !important;
-  }
-  .box{
-    font-size: small;
-  }
-  .banner-h5{
-    font-size: medium;
-  }
-  .banner-h3{
-    font-size: medium;
-  }
-  .banner-p{
-    font-size: small;
-  }
-  .banner-test{
-    font-size: small;
-  }
-}
-@media screen and (max-width:522px){
-  .box{
-    font-size: x-small;
-  }
-  .icon{
-    width: 16px;
-    height: 16px;
-  }
-  .drop{
-    padding-top: 24px;
-    padding-bottom:24px;
-  }
-}
-@media screen and (max-width:492px){
-  .box{
-    font-size: xx-small;
-  }
 }
 @media screen and (min-width: 1200px) {
-  body,#header ,#banner ,#testimonal,#courses,.signup,#features, #offers,#newsfeed, #loginform, #signup,.footer-section{
+  body,#header ,#banner ,#testimonal,#tweets,#section1,.courses,.signup,#features, #offers,#newsfeed, #loginform, #signup,.footer-section{
       text-align: center;
       margin-left: auto;
       margin-right: auto;

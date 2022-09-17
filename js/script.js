@@ -37,4 +37,14 @@ $(document).ready(function(){
         });
     });
 });
+$(document).ready(function() {
+    $(".top-bar li a").on('click', function(e) {
+        e.preventDefault()
+        var page = $(this).data('page');
+        $("#page01 .pages:not('hide')").stop().fadeOut('fast', function() {
+            $(this).addClass('hide');
+            $('#page01 .pages[data-page="'+page+'"]').fadeIn('slow').removeClass('hide');
+        });
+    });
+});
   
