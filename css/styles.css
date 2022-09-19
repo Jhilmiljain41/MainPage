@@ -3,7 +3,7 @@ body{
   justify-content: center;
   position: relative;
 }
-#header, #banner, #tweets,#testimonal,#section1, .courses,#features,.signup, #offers, #newsfeed ,.dropdown-menu.show ,#loginform ,#signup,.footer-section{
+#header, #banner, #tweets,#testimonal,#section1,#discover,#detail,.courses,#features,.signup, #offers, #newsfeed ,.dropdown-menu.show ,#loginform ,#signup,.footer-section{
   max-width: 1200px;
 }
 a{
@@ -145,6 +145,9 @@ color: black;
   .nav{
     font-size: medium;
   }
+  .foot div{
+    width: 100%;
+  }
 }
 .video {
   height: 100%;
@@ -190,7 +193,7 @@ color: black;
   }
 }
 @media screen and (min-width: 1200px) {
-  body,#header ,#banner ,#testimonal,#tweets,#section1,.courses,.signup,#features, #offers,#newsfeed, #loginform, #signup,.footer-section{
+  body,#header ,#banner ,#testimonal,#tweets,#section1,#detail,#discover,.courses,.signup,#features, #offers,#newsfeed, #loginform, #signup,.footer-section{
       text-align: center;
       margin-left: auto;
       margin-right: auto;
@@ -339,4 +342,12 @@ color: black;
 .offcanvas.show .signbt{
   border-top: 1px solid #00000031;
   padding-top: 10px;
+}
+.explore1{
+  max-height: 576px;
+    max-width: 1048px;
+    min-height: 426px;
+    min-width: 775px;
+    margin-left: 64px;
+    margin-right: -227px;
 }

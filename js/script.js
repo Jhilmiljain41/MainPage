@@ -21,7 +21,7 @@ $(document).ready(function(){
               items:3
           },
           1200:{
-              items:5
+              items:3
           }
       }
     });
