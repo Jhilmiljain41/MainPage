@@ -343,11 +343,39 @@ color: black;
   border-top: 1px solid #00000031;
   padding-top: 10px;
 }
-.explore1{
-  max-height: 576px;
-    max-width: 1048px;
-    min-height: 426px;
-    min-width: 775px;
-    margin-left: 64px;
-    margin-right: -227px;
+.course-list{
+    border-radius: 1rem;
+    flex: 0 0 auto;
+    font-size: .875rem;
+    font-weight: 700;
+    line-height: 2rem;
+    min-width: 138px;
+    padding: 0 1rem;
+    text-align: center;
+}
+.card-body{
+  align-items: flex-start;
+  display: -moz-box;
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+  padding: 1.5rem;
+}
+.found{
+  background-color: #f3f8fe;
+  color: #017a9b;
+}
+.inter{
+  color: #752c9d;
+  background-color: rgba(169,81,237,.1);
+}
+.advan{
+  color: #0c6438;
+  background-color: rgba(21,194,107,.1);
+}
+.card-body h5{
+  height: 90px;
+}
+.card-img-top{
+  height: 180px;
 }
