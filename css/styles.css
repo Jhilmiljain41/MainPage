@@ -280,3 +280,218 @@ body{
 .card-img-top{
   height: 180px;
 }
+/* about-page*/
+.about-banner{
+  background-color: #141c36;
+}
+.about1,.about2,#ourpeople{
+  max-width: 1200px;
+}
+@media screen and (min-width: 1200px) {
+  .about1,.about2,#ourpeople{
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: center;
+  }
+}
+.glance-list li{
+  margin-bottom: 30px;
+}
+.glance-video{
+  background-image: url(../images/glance.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*job page*/
+.job1,.job2,.job3{
+  max-width: 1200px;
+}
+@media screen and (min-width: 1200px) {
+  .job1,.job2,.job3{
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: center;
+  }
+}
+.job-banner-section{
+  background-image: url(../images/career1.webp);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 420px;
+}
+.job-text{
+  width: auto;
+    max-width: 930px;
+    padding-top: 112px;
+}
+.cards{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-radius: 6px;
+  box-shadow: 2px 4px 8px 0 rgb(46 61 73 / 11%);
+  background-color: #fff;
+  padding-right: 25px;
+  padding-left: 25px; 
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.brand{
+  width: 75px;
+    height: 75px;
+    background-image: url(../images/job1.webp);
+}
+.brand1{
+  background-position: 0 0;
+}
+.brand2{
+  background-position: -75px 0;
+}
+.brand3{
+  background-position: 0 -75px ;
+}
+.brand4{
+  background-position: -75px -75px;
+}
+.job-card-img{
+  position: absolute;
+    top: -40px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-image: linear-gradient(106deg,#f53941,#ff6e6a);
+}
+.job3 hr{
+  margin-left: 0px !important;
+  margin: 20px auto 20px auto;
+  width: 80px;
+  height: 1px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+/* t&c page*/
+.conditions,.tc{
+  max-width: 1200px;
+}
+@media screen and (min-width: 1200px) {
+  .conditions,.tc{
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: center;
+  }
+}
+.conditions{
+  width: 70%;
+}
+.conditions h2{
+  margin-bottom: 28px;
+  margin-top: 28px;
+}
+.conditions ol li, .conditions ul li{
+  margin-top: 16px;
+}
+/*contact-us page*/
+.contact,.contact1,.contact3{
+  max-width: 1200px;
+}
+@media screen and (min-width: 1200px) {
+  .contact1,.contact,.contact3{
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: center;
+  }
+}
+.contact1{
+  position: relative;
+  height: 150px;
+}
+.contact-icon{
+  width: 40px;
+  height: 40px;
+}
+.contact-card{
+  width: 85%;
+  margin: auto;
+  position: absolute;
+  top: -60px;
+}
+.contact-card:hover{
+  background-color: white;
+}
+.contact-form{
+  padding-top: 15px;
+  margin-bottom: 25px;
+  position: relative;
+  z-index: 3;
+}
+
+.contact-label{
+  position: absolute;
+  top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(76,76,76,.2);
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  z-index: 9;
+  cursor: text;
+}
+.ph{
+  margin-left: 125px;
+}
+.contact-field{
+  position: relative;
+}
+  .contact-input{
+    width: 100%;
+    height: 40px;
+    padding-right: 60px;
+    border-radius: 0;
+    padding-left: 0!important;
+    border-top: 0!important;
+    border-left: 0!important;
+    border-right: 0!important;
+    font-size: 20px;
+}
+.contact3 .input_label,.contact3 .textarea_label {
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  display: block;
+  color: hsla(0,0%,62%,.5);
+}
+.contact-input{
+  border: 1px solid rgba(20,32,49,.08);
+  height: 50px;
+  resize: none;
+  outline: none;
+}
+.contact-text{
+  border: 1px solid rgba(20,32,49,.08)!important;
+    height: 160px;
+    padding: 10px!important;
+    border-radius: 5px;
+    resize: vertical;
+    width: 100%;
+    outline: none;
+}
+.contact-form.mystyle .contact-label, .contact-form.mystyle .contact-label:active,.contact-form:focus-within .contact-label, .contact-form:focus-within .contact-label:active {
+  top: 0;
+  font-size: 12px;
+  color: rgba(76,76,76,.4);
+  letter-spacing: -.25px;
+  margin-left: 0px !important;
+}
+.contact-input:focus {
+  border: 1px solid #55bbea;
+}
