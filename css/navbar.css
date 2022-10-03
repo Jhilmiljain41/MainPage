@@ -61,6 +61,12 @@ color: black;
 .drop{
   padding-top: 48px;
   padding-bottom:48px;
+  top: 70px !important;
+}
+@media screen and (max-width:991px) {
+  .nav-item .shadow {
+    box-shadow: none !important;
+}
 }
 @media screen and (max-width:990px){
   .navbar-nav .nav-item:hover{
@@ -121,13 +127,17 @@ color: black;
   padding-top: 10px;
 }
 #footer a{
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
+}
+#footer hr{
+  color: white;
 }
 .list-unstyled .Learn{
   font-size: 18px !important;
   margin-bottom: 12px;
 }
 .list-unstyled li{
-  font-size: 15px;
+  font-size: 17px;
+  line-height: 32px;
 }
