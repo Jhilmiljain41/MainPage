@@ -519,10 +519,19 @@ body{
   z-index: -1;
   opacity: .7;
 }
-.tick {
+.tick1 {
   list-style: inside url(../images/tick.png);
 }
 .tick li{
   margin-top: 20px;
   font-size: 14px;
+}
+ul.tick {
+  list-style-position: outside;
+}
+.tick2 {
+  list-style: inside url(../images/tick-2.png);
+}
+.tick3 {
+  list-style: inside url(../images/tick-3.png);
 }
