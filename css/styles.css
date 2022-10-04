@@ -282,7 +282,7 @@ body{
 }
 /* about-page*/
 .about-banner{
-  background-color: #141c36;
+  background-color: #e59608;
 }
 .about1,.about2,#ourpeople{
   max-width: 1200px;
@@ -494,4 +494,35 @@ body{
 }
 .contact-input:focus {
   border: 1px solid #55bbea;
+}
+/* pricing */
+.pricing-banner,.pricing-cards{
+  max-width: 1200px;
+}
+@media screen and (min-width: 1200px) {
+  .pricing-banner,.pricing-cards{
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: center;
+  }
+}
+.pricing-banner::before {
+  content: "";
+  background: url(../images/pricing-bg.svg) no-repeat center bottom;
+  background-size: 115%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  opacity: .7;
+}
+.tick {
+  list-style: inside url(../images/tick.png);
+}
+.tick li{
+  margin-top: 20px;
+  font-size: 14px;
 }
