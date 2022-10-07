@@ -6,3 +6,8 @@
         font-size: small;
     }
 }
+#alert {
+    display: none;
+    color: red;
+    margin-bottom: 10px;
+  }

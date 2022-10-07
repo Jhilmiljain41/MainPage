@@ -274,7 +274,7 @@ body{
   color: #0c6438;
   background-color: rgba(21,194,107,.1);
 }
-.card-body h5{
+.courses .card-body h5{
   height: 90px;
 }
 .card-img-top{
@@ -328,8 +328,9 @@ body{
 }
 .job-text{
   width: auto;
-    max-width: 930px;
-    padding-top: 112px;
+  margin: auto;
+  max-width: 930px;
+  padding-top: 112px;
 }
 .cards{
   width: 100%;
@@ -534,4 +535,61 @@ ul.tick {
 }
 .tick3 {
   list-style: inside url(../images/tick-3.png);
+}
+/*wall of love*/
+.wol,.comment-wol{
+  max-width: 1200px;
+}
+@media screen and (min-width: 1200px) {
+  .wol,.comment-wol{
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: center;
+  }
+}
+.wol-section{
+  background-color: #141c36;
+}
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+.comment-name{
+  color: #141c36!important;
+}
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+.comment-wol .card p{
+  font-size: 17px;
+}
+/*blog section*/
+.blog1,.blog2,.blog3{
+  max-width: 1200px;
+}
+@media screen and (min-width: 1200px) {
+  .blog1,.blog2,.blog3{
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: center;
+  }
+}
+.middledot{
+  font-size: 15px!important;
+  padding-right: 0.3em;
+    padding-left: 0.3em;
+}
+.middledot::after{
+  content: '\00B7';
+}
+.blog1 p,.blog2 p,.blog3 p{
+  font-size: 17px;
+}
+.blog-profile p{
+  font-size: 15px;
 }
