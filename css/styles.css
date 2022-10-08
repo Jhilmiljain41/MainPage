@@ -295,6 +295,15 @@ body{
       justify-content: center;
   }
 }
+@media screen and (max-width: 766px) {
+  .about1-img{
+    display: none;
+  }
+  .about1-head{
+    margin: 58px auto;
+    text-align: center !important;
+  }
+}
 .glance-list li{
   margin-bottom: 30px;
 }
@@ -389,8 +398,23 @@ body{
       justify-content: center;
   }
 }
-.conditions{
-  width: 70%;
+@media screen and (min-width: 976px) {
+  .conditions{
+    margin: auto;
+    width: 70%;
+  }
+}
+@media screen and (max-width: 976px) {
+  .conditions{
+    margin: auto;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 660px) {
+  .conditions{
+    margin: auto;
+    width: 100%;
+  }
 }
 .conditions h2{
   margin-bottom: 28px;
@@ -411,18 +435,25 @@ body{
       justify-content: center;
   }
 }
-.contact1{
-  position: relative;
-  height: 150px;
-}
 .contact-icon{
   width: 40px;
   height: 40px;
 }
+@media screen and (min-width:990) {
+  .contact-card{
+    position: absolute;
+  }
+  .contact1{
+    position: relative;
+    height: 150px;
+  }
+  .borderend{
+    border-right:1px solid #dee2e6;
+  }
+}
 .contact-card{
   width: 85%;
   margin: auto;
-  position: absolute;
   top: -60px;
 }
 .contact-card:hover{
@@ -578,6 +609,10 @@ ul.tick {
       margin-right: auto;
       justify-content: center;
   }
+}
+.blog-car{
+  width: 70%;
+  margin: auto;
 }
 .middledot{
   font-size: 15px!important;
