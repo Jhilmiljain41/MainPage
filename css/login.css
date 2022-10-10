@@ -11,3 +11,11 @@
     color: red;
     margin-bottom: 10px;
   }
+body{
+    overflow-y: hidden;
+}
+@media screen and (max-width:990px) {
+    body{
+        overflow-y: auto;
+    }   
+}

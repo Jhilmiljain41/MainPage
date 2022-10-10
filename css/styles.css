@@ -282,7 +282,7 @@ body{
 }
 /* about-page*/
 .about-banner{
-  background-color: #e59608;
+  background-color:#9008e5;
 }
 .about1,.about2,#ourpeople{
   max-width: 1200px;
@@ -439,7 +439,7 @@ body{
   width: 40px;
   height: 40px;
 }
-@media screen and (min-width:990) {
+@media screen and (min-width:990px) {
   .contact-card{
     position: absolute;
   }
